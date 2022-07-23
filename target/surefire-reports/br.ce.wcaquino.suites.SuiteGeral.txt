@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: br.ce.wcaquino.suites.SuiteGeral
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 62.363 sec <<< FAILURE! - in br.ce.wcaquino.suites.SuiteGeral
+testExcluirContaComMovimentacao(br.ce.wcaquino.tests.RemoverMovimentacaoContaTest)  Time elapsed: 2.618 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='alert alert-danger']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-8NT229T', ip: '10.0.0.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\thayna\AppData\Local\Temp\rust_mozprofileHPXiz3, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=100.0.2, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=2096.0, browserName=firefox, moz:buildID=20220519220738, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 4f4cd091-42c1-4a01-8236-98f3e0fcf737
+*** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at br.ce.wcaquino.core.BasePage.obterTexto(BasePage.java:134)
+	at br.ce.wcaquino.pages.ContasPage.obterMensagemDeErroComMesmoNome(ContasPage.java:26)
+	at br.ce.wcaquino.tests.RemoverMovimentacaoContaTest.testExcluirContaComMovimentacao(RemoverMovimentacaoContaTest.java:20)
+
+test1_ExcluirMovimentacao(br.ce.wcaquino.tests.ResumoTest)  Time elapsed: 0.413 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[@class='glyphicon glyphicon-remove-circle']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-8NT229T', ip: '10.0.0.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\thayna\AppData\Local\Temp\rust_mozprofileHPXiz3, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=100.0.2, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=2096.0, browserName=firefox, moz:buildID=20220519220738, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 4f4cd091-42c1-4a01-8236-98f3e0fcf737
+*** Element info: {Using=xpath, value=//span[@class='glyphicon glyphicon-remove-circle']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at br.ce.wcaquino.core.BasePage.clicarBotao(BasePage.java:111)
+	at br.ce.wcaquino.pages.ResumoPage.excluirMovimentacao(ResumoPage.java:10)
+	at br.ce.wcaquino.tests.ResumoTest.test1_ExcluirMovimentacao(ResumoTest.java:29)
+

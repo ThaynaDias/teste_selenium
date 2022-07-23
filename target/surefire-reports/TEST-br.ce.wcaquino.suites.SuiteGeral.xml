@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.ce.wcaquino.suites.SuiteGeral" time="27.496" tests="10" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\thayna\ProjetoBasico"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\thayna\ProjetoBasico"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\thayna\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\thayna\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8020164227560355755.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.14/bin/server;C:/Program Files/Java/jdk-11.0.14/bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\thayna\driver;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Maven\apache-maven-3.8.6\bin;C:\Users\thayna\AppData\Local\Microsoft\WindowsApps;;C:\Users\thayna\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thayna\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\thayna\OneDrive\Área de Trabalho;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\thayna"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="thayna"/>
+    <property name="java.class.path" value="C:\Users\thayna\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.1.20211011-2139\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.14"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\thayna\ProjetoBasico\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test1_InserirConta" classname="br.ce.wcaquino.tests.ContaTest" time="6.599"/>
+  <testcase name="test2_AlterarConta" classname="br.ce.wcaquino.tests.ContaTest" time="2.665"/>
+  <testcase name="test3_InserirContaMesmoNome" classname="br.ce.wcaquino.tests.ContaTest" time="1.917"/>
+  <testcase name="Test3_InserirMovimentacaoFuturas" classname="br.ce.wcaquino.tests.MovimentacaoTest" time="4.362"/>
+  <testcase name="test1_InserirMovimentacao" classname="br.ce.wcaquino.tests.MovimentacaoTest" time="4.439"/>
+  <testcase name="test2_ValidacaoCamposObrigatorio" classname="br.ce.wcaquino.tests.MovimentacaoTest" time="1.032"/>
+  <testcase name="testExcluirContaComMovimentacao" classname="br.ce.wcaquino.tests.RemoverMovimentacaoContaTest" time="2.618">
+    <error message="Unable to locate element: //div[@class=&apos;alert alert-danger&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-8NT229T&apos;, ip: &apos;10.0.0.11&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\thayna\AppData\Local\Temp\rust_mozprofileHPXiz3, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=100.0.2, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=2096.0, browserName=firefox, moz:buildID=20220519220738, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: 4f4cd091-42c1-4a01-8236-98f3e0fcf737&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;alert alert-danger&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='alert alert-danger']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-8NT229T', ip: '10.0.0.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\thayna\AppData\Local\Temp\rust_mozprofileHPXiz3, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=100.0.2, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=2096.0, browserName=firefox, moz:buildID=20220519220738, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 4f4cd091-42c1-4a01-8236-98f3e0fcf737
+*** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at br.ce.wcaquino.core.BasePage.obterTexto(BasePage.java:134)
+	at br.ce.wcaquino.pages.ContasPage.obterMensagemDeErroComMesmoNome(ContasPage.java:26)
+	at br.ce.wcaquino.tests.RemoverMovimentacaoContaTest.testExcluirContaComMovimentacao(RemoverMovimentacaoContaTest.java:20)
+</error>
+    <system-err><![CDATA[console.warn: LoginRecipes: "JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+getRecipes: falling back to a synchronous message for:" "https://seubarriga.wcaquino.me"
+]]></system-err>
+  </testcase>
+  <testcase name="testSaldoConta" classname="br.ce.wcaquino.tests.SaldoTest" time="1.313"/>
+  <testcase name="Test2_ResumoMensal" classname="br.ce.wcaquino.tests.ResumoTest" time="2.138"/>
+  <testcase name="test1_ExcluirMovimentacao" classname="br.ce.wcaquino.tests.ResumoTest" time="0.413">
+    <error message="Unable to locate element: //span[@class=&apos;glyphicon glyphicon-remove-circle&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-8NT229T&apos;, ip: &apos;10.0.0.11&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\thayna\AppData\Local\Temp\rust_mozprofileHPXiz3, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=100.0.2, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=2096.0, browserName=firefox, moz:buildID=20220519220738, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]&#10;Session ID: 4f4cd091-42c1-4a01-8236-98f3e0fcf737&#10;*** Element info: {Using=xpath, value=//span[@class=&apos;glyphicon glyphicon-remove-circle&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[@class='glyphicon glyphicon-remove-circle']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-8NT229T', ip: '10.0.0.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\thayna\AppData\Local\Temp\rust_mozprofileHPXiz3, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=100.0.2, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=2096.0, browserName=firefox, moz:buildID=20220519220738, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 4f4cd091-42c1-4a01-8236-98f3e0fcf737
+*** Element info: {Using=xpath, value=//span[@class='glyphicon glyphicon-remove-circle']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at br.ce.wcaquino.core.BasePage.clicarBotao(BasePage.java:111)
+	at br.ce.wcaquino.pages.ResumoPage.excluirMovimentacao(ResumoPage.java:10)
+	at br.ce.wcaquino.tests.ResumoTest.test1_ExcluirMovimentacao(ResumoTest.java:29)
+</error>
+  </testcase>
+</testsuite>

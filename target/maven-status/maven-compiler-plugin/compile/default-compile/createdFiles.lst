@@ -1,0 +1,6 @@
+br\ce\wcaquino\pages\MovimentacaoPage.class
+br\ce\wcaquino\core\BasePage.class
+br\ce\wcaquino\core\DriverFactory.class
+br\ce\wcaquino\utils\DataUtils.class
+br\ce\wcaquino\suites\SuiteGeral.class
+br\ce\wcaquino\core\DriverFactory$1.class
